@@ -1,0 +1,102 @@
+<%@ Master Language="C#" AutoEventWireup="false" CodeBehind="Main.Master.cs" Inherits="Pripev.Web.UI.MainMasterPage" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head runat="server">
+    <title><asp:Literal ID='litTitle' runat='server' /></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <meta name="Author" content="Aleksey G. Grachev" />
+    <meta name="Robots" content="all" />
+    <meta name="Keywords" content="музыка песни аккорды табулатуры табы дискография тексты альбомы MP3 гитара" />
+
+    <link rel="stylesheet" href="/Include/Styles.css" />
+    <asp:ContentPlaceHolder ID='cntStyle' runat='server' />
+    <link rel="Shortcut Icon" href="/Images/RS32x32x256.ico" />
+    <link rel="alternate" href="/rss" type="application/rss+xml" title="Pripev RSS" />
+    <link rel="alternate" href="/atom" type="application/atom+xml" title="Pripev Atom" />
+
+    <script type="text/javascript" src="/Include/Lib.js" ></script>
+    <script type="text/javascript">
+       function _OnLoad_() {
+          window.name = "MainWindow";
+          if (typeof (OnLoad) != "undefined") OnLoad();
+       }
+       function GetName() {return ("name");}
+    </script>
+    <asp:ContentPlaceHolder ID='plhScript' runat='server' />
+</head>
+
+<body onload='_OnLoad_()'>
+<form id="form1" runat="server">
+
+<table class='header' cellspacing='0' cellpadding='0'>
+   <tr>
+      <td><a href="/" onmouseover='window.status="На первую страницу";return(true);' onmouseout='window.status="";return(true);'><img src="/Images/Logo.gif" border="0" alt="В начало"/></a></td>
+      <td align='right' id='TopRightAd'><pwc:Banner id="bnrTop" runat="server" Params="TopRight" Provider="AdSense" /></td>
+   </tr>
+</table>
+<table cellspacing='0' cellpadding='0' class='letters'>
+   <tr>
+      <td class='spacer'><img src='/Images/Bkgs/LettersSpacer.gif' alt=''/></td>
+      <td align='center' nowrap="nowrap"><pwc:NavLetters id='pwcLetters' runat='server' /></td>
+      <td width='200'>
+         <asp:Panel ID='pnlQSearch' runat='server' DefaultButton='btnQSearch' CssClass='qsearch'>
+            <pwc:LengthValidator ID='reqQSearh' runat='server' ControlToValidate='txtQSearch' ValidationGroup='grpQSearch' MinLength='3' ToolTip='Введите как минимум 3 символа'>*&nbsp;</pwc:LengthValidator><asp:TextBox ID='txtQSearch' runat='server' MaxLength="50" ToolTip='введите 3 или больше символов' /><asp:LinkButton ID='btnQSearch' runat='server' CausesValidation='true' Text="<img src='/Images/Icons/Search.gif'>" PostBackUrl='~/Search.aspx' ToolTip='Искать' ValidationGroup='grpQSearch' />
+         </asp:Panel>
+      </td>
+   </tr>
+</table>
+
+<table class='tblContent' cellspacing='0'>
+<tr>
+<td class='st01'>
+<div class='menu'>
+   <ul>
+      <li><a href='/Artists.aspx' title="Все исполнители">Песни</a></li>
+      <li><a href='/User/OrdersProgress.aspx' title="Заказ файлов">Заказы</a></li>
+      <li><a href='/Forum' title="Припевный форум">Форум</a></li>
+      <li><a href='/GuestBook.aspx' title="Гостевая книга">Гостевая</a></li>
+      <li><a href='javascript:Redirect("/Wanted.aspx")' title="Файлы, которые нужны сайту">Помочь</a></li>
+      <li><a href='/Guitar.aspx' title="Гитарные ресурсы">Гитара</a></li>
+      <li><a href='/Links.aspx' title="Музыкальные ссылки">Ссылки</a></li>
+      <li><a href='/Top20.aspx' title="Самые популярные ресурсы сайта">TOP20</a></li>
+      <li><a href='/About.aspx' title="А подать сюда автора этого безобразия!">О проекте</a></li>
+      <li><a href='/' title="На первую страницу">В начало</a></li>
+   </ul>
+   <asp:Literal ID='litUserHr' runat='server' Visible='false' Text="<hr />" />
+   <iframe id='frameLoginPanel' runat='server' frameborder='0' scrolling='no' width='100%' height='170'></iframe>
+   <hr/>
+</div>
+
+<div class='comm'>
+   <h1>Помоги сайту</h1>
+   <a href='http://smskopilka.ru/?info&id=12370' title='Поддержи сайт. Отправь SMS' target='_blank'>Отправь SMS</a>
+   <a href='javascript:Redirect("/Payment.aspx")' title='Денежное пожертвование для всеобщего блага'>Сделай подарок</a>
+   <a href='javascript:Redirect("/Wanted.aspx")' title='Файлы, которые нужны сайту'>Поделись инфой</a>
+</div>
+
+<asp:ContentPlaceHolder ID="cplhMenu1" runat="server" />
+
+</td>
+
+<td class='st02' align='center' >
+   <div class='content'><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" /></div>
+</td>
+</tr>
+</table>
+</form>
+
+<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+   <tr><td style='width:100px'>&nbsp;</td><td><div id='BottomAd' style='text-align:center;'><pwc:Banner id="bnrBottom" runat="server" Params="Bottom" Provider="AdSense" /></div></td></tr>
+</table>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+   _uacct = "UA-3862081-2";
+   urchinTracker();
+</script>
+
+</body>
+</html>

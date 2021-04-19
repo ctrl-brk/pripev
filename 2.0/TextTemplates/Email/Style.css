@@ -1,0 +1,9 @@
+﻿body {margin:0; padding:0; color:#222222;background: #F4F0EE; font:normal 10px Verdana,Arial,Helvetica,sans-serif; scrollbar-base-color:#F4F0EE;text-align: left;}
+a, a:visited, a:link {color:#222222}
+a:hover {color:#FCBD03;}
+hr {height:1px; color:#BE9175;}
+table.data {border:1px solid #BE9175; background:#FFFFFC; font:10px Verdana;padding:0;}
+table.data th {padding:0 5px; font:11px Verdana; color:#444444; background-color:#FDF6D1; font-weight:bold; text-align:left; height:20px;border-bottom: 1px solid #FACDB1;}
+table.data td {padding:0 2px; height:18px; color:#222222; text-align:left; border-left:1px dashed #FACDB1; white-space:nowrap;}
+table.data td a {white-space:nowrap;}
+table.data td.first { border-left: none;}

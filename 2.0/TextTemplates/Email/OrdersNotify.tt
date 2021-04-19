@@ -1,0 +1,11 @@
+﻿<#@ template language="C#" #>
+<#@ include file="EmailHeader.t4" #>
+		<img src='http://pripev64/Images/LogoOrders.gif' />
+		<br />
+		<table class='data'>
+			<tr><th>Исполнитель</th><th>Альбом</th><th>Композиция</th></tr>
+			<# foreach( var o in Orders) { #>
+				<tr><td class='first'><#= o.Artist #></td><td><#= o.Album #></td><td><a href='<#= o.Url #>'><#= o.Song #></a></td></tr>
+			<# } #>
+		</table>
+<#@ include file="EmailFooter.t4" #>

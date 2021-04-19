@@ -1,0 +1,283 @@
+a, a:visited, a:link {color:#222222}
+a:hover {color:#FCBD03;}
+
+a.sbtn, a.sbtn:visited, a.sbtn:link {color:#FCBD03; font-weight:bold; text-decoration:none; text-transform:uppercase; background:url(/Images/Bkgs/Btn.gif); width:95px; height:27px; padding:0; margin:5px; text-align:center; line-height:16px; display:-moz-inline-box; -moz-box-pack:center; display:inline-block;}
+a.sbtn:hover {background:url(/Images/Bkgs/BtnA.gif);}
+
+body {margin:0; padding:0; color:#222222; background:#F4F0EE url(/Images/Score.gif); font:normal 10px Verdana,Arial,Helvetica,sans-serif; scrollbar-base-color:#F4F0EE;}
+.popupbody {background:#F4F0EE;}
+
+hr {height:1px; color:#BE9175;}
+
+.header {border:0; width:100%; height:60px; background:white;}
+
+.letters {padding:0; margin:0; width:100%; height:22px; font-family:Arial; font-size:15px; color:#D3AB8A; background:white url(/Images/Bkgs/Letter.gif) repeat-x;}
+.letters a, .letters a:visited, .letters a:link {color:#BE9175; text-decoration:none; padding:0 3px; margin:0; font-weight:bold}
+.letters a:hover {text-decoration:underline}
+.letters .qsearch {float:right;}
+.letters .qsearch input {border:1px solid #FCBD03; background-color:#FDF6D1; color:#BE9175; font:normal 12px Verdana; height:16px; width:120px; padding:0; margin:0; vertical-align:middle;}
+.letters .qsearch img {border:0; padding:0; margin:0 5px 0 2px; vertical-align:middle}
+.letters td.spacer {width:100px; background:url(/Images/Score.gif) no-repeat;}
+
+.tblContent {border:none; padding:0; margin:0; width:100%; text-align:center;}
+.tblContent td.st01 {width:100px; padding:0; text-align:left; vertical-align:top;}
+.tblContent td.st02 {padding:0; text-align:center; vertical-align:top;}
+
+.menu {width:100px; text-align:center; font:normal bold 14px Arial; color:#F5F6EC;}
+.menu ul {width:100%; padding:0; margin:0;}
+.menu ul li {margin:5px auto 10px auto; list-style:none; text-transform:uppercase;}
+.menu a, .menu a:visited, .menu a:link {color:#FCBD03; text-decoration:none; background:url(/Images/Bkgs/MenuBtn.gif); width:93px; height:28px; padding:0; line-height:18px; display:-moz-inline-box; display:inline-block; text-align:center; -moz-box-pack:center;}
+.menu a:hover {background:url(/Images/Bkgs/MenuBtnA.gif);}
+.menu hr {height:1px; color:#F5F6EC; width:90%}
+
+.user {padding:0 5px; margin:0;}
+.user {font-family:Arial; font-size:10px; color:#F5F6EC; text-align:left}
+.user input {border:1px solid #FCBD03; background-color:#FDF6D1; color:#BE9175; font:normal 10px Verdana; width:100%; height:16px;}
+.user p {padding:0; margin:0;}
+.user .btn {padding:0; margin:10px 0 5px 0; text-align:center;}
+.user a:hover {background-image:none;}
+.user a, .user a:visited, .user a:link {text-decoration:underline; background-image:none; color:#F5F6EC;}
+.user a.lnk01, .user a:visited.lnk01, .user a:link.lnk01 {font-size:11px; font-weight:bold; background-image:none;}
+.user a.enter, .user a.enter:visited, .user a.enter:link {text-decoration:none; background:url(/Images/Bkgs/Door.gif) no-repeat; width:32px; height:40px; padding:12px 0 0 40px; margin:5px 0; font-size:12px}
+.user a.enter:hover {background:url(/Images/Bkgs/OpenDoor.gif) no-repeat; text-decoration:underline;}
+
+.bnr {margin:10px 0; padding:0; text-align:center;}
+.bnr a, .bnr a:link, .bnr a:visited, .bnr a:hover{background:none}
+
+.comm {border-top:1px solid #863913; width:100px; margin:5px 0 10px 0; padding:0 0 5px 0;}
+.comm h1 {border-left:1px solid #863913; border-right:1px solid #863913; font:normal 9px Verdana,Arial,Helvetica,sans-serif; background-color:white; color:black; text-align:center; margin:0 0 5px 0;}
+.comm {font:normal 9px Verdana,Arial,Helvetica,sans-serif; color:black; text-align:center; vertical-align:middle; background:url(/Images/Bkgs/Comm.gif) 0% 100% no-repeat;}
+.comm a {display:block;padding:0 0 2px 0; width:98px;}
+
+.content {text-align:center; padding:10px 3px;}
+.content table1 {border:1px solid black; padding:0; margin:0;}
+.content thead1 td {padding:0 10px; font:13px Verdana; color:#F5F6EC; background:#FFF6C4 url(/Images/Bkgs/HeadRight.gif) 100% 0% no-repeat; font-weight:bold; text-align:center; height:21px;}
+.content th1 {padding:3px 5px; font:11px Verdana; color:black; background:#F8F6DB; font-weight:bold; text-align:left;}
+.content td1 {padding:0; font:11px Verdana; background:white; color:black;}
+.content td1.hs {padding:0 0 10px 0}
+.content p1 {padding:10px;}
+.content p1.np {padding:0 10px}
+.content hr {height:1px; color:#BE9175; padding:0; margin:2px 0; text-align:center;}
+
+.tbl01 {border-left:1px solid #BE9175; border-right:1px solid #BE9175; border-bottom:1px solid #BE9175; padding:0;}
+.tbl01 thead td {padding:2px 0 0 0; vertical-align:top; font:13px Verdana; color:#BE9175; background:url(/Images/Bkgs/HeaderW.gif); font-weight:bold; text-align:center; height:26px;}
+.tbl01 th {padding:0 5px 5px 5px; font:11px Verdana; color:black; background-color:#FDF6D1; font-weight:bold; text-align:left}
+.tbl01 td {padding:0 0 5px 0; font:11px Verdana; color:black; background:white}
+.tbl01 td em {font:italic 9px Verdana}
+.tbl01 td.err {background-color:#C50001; color:white; font-weight:bold; text-align:center;}
+.tbl01 td p {font-family:Tahoma; margin:4px 10px; text-indent:1.5em;}
+.tbl01 p.ni { text-indent:0}
+.tbl01 img.icon {float:left;margin-right:5px}
+.tbl01 input {border:1px solid #FCBD03; background-color:#FDF6D1; color:#BE9175; font-family:Verdana; font-size:11px; height:16px;}
+.tbl01 input.hl {border:1px solid #44AAC8; background-color:#74DAF8; color:white; font-family:Verdana; font-size:11px; height:16px;}
+.tbl01 select {font:normal 11px Verdana; background-color:#FDF6D1; color:#BE9175;}
+.tbl01 select.hl {font-size:11px; background-color:#74DAF8; color:white; font-family:Verdana;}
+.tbl01 input.checkbox {border:0; font:11px Verdana; background-color:white; color:black;}
+.tbl01 input.checkbox.hl {border:1px solid #44AAC8; font:11px Verdana; background-color:#74DAF8; color:black;}
+.tbl01 input.radio {border:0; font:11px Verdana; background-color:white; color:black;}
+.tbl01 input.radio.hl {border:1px solid #44AAC8; font:11px Verdana; background-color:#74DAF8; color:black;}
+.tbl01 textarea {border:1px solid #FCBD03; background-color:#FDF6D1; color:#BE9175; font-family:Verdana; font-size:11px; scrollbar-base-color:#C1AA7C;}
+.tbl01 textarea.hl {border:1px solid #44AAC8; background-color:#74DAF8; color:white; font-family:Verdana; font-size:11px; scrollbar-base-color:#248AB8;}
+.tbl01 span.alert {font-weight:bold; color:red;}
+
+.tbl02 {border-left:1px solid #BE9175; border-right:1px solid #BE9175; border-bottom:1px solid #BE9175; padding:0;}
+.tbl02 thead td { padding:0 0; font:13px Verdana; color:#BE9175; background:url(/Images/Bkgs/Header.gif); font-weight:bold; text-align:center; height:21px;}
+.tbl02 th {padding:0 5px 5px 5px; font:11px Verdana; color:black; background-color:#FDF6D1; font-weight:bold; text-align:left}
+.tbl02 td {padding:0 5px 0 5px; font:11px Verdana; color:black; background:white;}
+
+.tbl03 {border-left:1px solid #BE9175; border-right:1px solid #BE9175; border-bottom:1px solid #BE9175; background:#FFFFFC; padding:0;}
+.tbl03 thead td {border:0; vertical-align:top; padding:2px 0 0 0; font:13px Verdana; color:#BE9175; background:url(/Images/Bkgs/Header.gif); font-weight:bold; text-align:center; height:26px;}
+.tbl03 tfoot td {border:0; vertical-align:top; padding:5px 0 0 0; font:13px Verdana; color:#BE9175; background:url(/Images/Bkgs/FooterW.gif); font-weight:bold; text-align:center; height:26px;}
+.tbl03 thead td a:link, .tbl03 thead td a:visited, .tbl03 tfoot td a:link, .tbl03 tfoot td a:visited {color:#BE9175}
+.tbl03 thead td a:hover, .tbl03 tfoot td a:hover {color: #FCBD03;}
+.tbl03 tbody th {padding:0 5px; font:11px Verdana; color:#444444; background-color:#FDF6D1; font-weight:bold; text-align:left; height:20px; border-bottom:1px dashed #FACDB1}
+.tbl03 th.alb {background:#FDF6D1 url(/Images/Albums.gif) 50% 50% no-repeat}
+.tbl03 th.cd {background:#FDF6D1 url(/Images/CD.gif) 50% 50% no-repeat}
+.tbl03 th.chrd {background:#FDF6D1 url(/Images/Note.gif) 50% 50% no-repeat}
+.tbl03 th.txt {background:#FDF6D1 url(/Images/Text.gif) 50% 50% no-repeat}
+.tbl03 th.on {background:#FDF6D1 url(/Images/Sounds/mp3.gif) 50% 50% no-repeat}
+.tbl03 th.off {background:#FDF6D1 url(/Images/Sounds/mp3offline.gif) 50% 50% no-repeat}
+.tbl03 th.mid {background:#FDF6D1 url(/Images/Sounds/mid.gif) 50% 50% no-repeat}
+.tbl03 th.kar {background:#FDF6D1 url(/Images/Sounds/Kar.gif) 50% 50% no-repeat}
+.tbl03 th.mov {background:#FDF6D1 url(/Images/Sounds/mpg.gif) 50% 50% no-repeat}
+.tbl03 th.lst {background:#FDF6D1 url(/Images/Listen.gif) 50% 50% no-repeat; width:15px}
+.tbl03 th.buy {background:#FDF6D1 url(/Images/ShoppingCart.gif) 50% 50% no-repeat}
+.tbl03 th.snd {background:#FDF6D1 url(/Images/Sounds/wav.gif) 50% 50% no-repeat}
+.tbl03 th.cmt {background:#FDF6D1 url(/Images/Icons/Comment1.gif) 50% 50% no-repeat}
+
+.tbl03 tbody tr.st01 td {background-color:#FBFBF0}
+.tbl03 tbody td {padding:0 2px; height:18px; font:11px Verdana; color:#222222; text-align:center; border-left:1px dashed #FACDB1; white-space:nowrap;}
+.tbl03 tbody td a {white-space:nowrap;}
+.tbl03 td.name {text-align:left; background:url(/Images/Nail.gif) 4px 7px no-repeat; padding-left:12px; border:0}
+.tbl03 td.alb {background:url(/Images/Bkgs/AlbumsBkg.gif) 50% 50% repeat-y; width:30px;}
+.tbl03 td.cd {background:url(/Images/Bkgs/CDBkg.gif) 50% 50% repeat-y; width:20px}
+.tbl03 td.chrd {background:url(/Images/Bkgs/ChordsBkg.gif) 50% 50% repeat-y; width:30px}
+.tbl03 td.txt {background:url(/Images/Bkgs/TextBkg.gif) 50% 50% repeat-y; width:30px}
+.tbl03 td.on {background:url(/Images/Bkgs/MP3OnBkg.gif) 50% 50% repeat-y; width:20px}
+.tbl03 td.off {background:url(/Images/Bkgs/MP3Bkg.gif) 50% 50% repeat-y; width:35px;}
+.tbl03 td.mid {background:url(/Images/Bkgs/MidBkg.gif) 50% 50% repeat-y; width:20px;}
+.tbl03 td.kar {background:url(/Images/Bkgs/KarBkg.gif) 50% 50% repeat-y; width:20px;}
+.tbl03 td.mov {background:url(/Images/Bkgs/MovBkg.gif) 50% 50% repeat-y; width:20px;}
+.tbl03 td.wnt {background:url(/Images/Bkgs/WantedBkg.gif) 50% 50% repeat-y;}
+.tbl03 td.chk {background:url(/Images/Check.gif) 2px 50% no-repeat; padding-left:15px}
+.tbl03 td.chkm {background:url(/Images/CheckM.gif) 2px 50% no-repeat; padding-left:15px}
+.tbl03 td.snd {padding:0 5px; text-align:right;}
+.tbl03 td.cmt {padding:0 0px; text-align:center;}
+
+.info {background:white url(/Images/Bkgs/Header.gif) 0 0 repeat-x; text-align:left; border-left:1px solid #BE9175; border-right:1px solid #BE9175; border-bottom:1px solid #BE9175; padding:0 8px 5px 8px; margin:10px auto auto auto; width:95%; font:normal 11px Verdana;}
+.info h1 {vertical-align:top; padding:2px 0 0 0; margin:0; font:13px Verdana; color:#BE9175; font-weight:bold; text-align:center; height:26px;}
+.info p {text-align:justify; text-indent:2em; padding:0; margin:5px 0; font-family:Tahoma; font-size:11px;}
+.info em {font-family:"Times New Roman",times; font-size:13px; font-style:italic; margin:0; padding:0}
+.info cite {display:block; font-family:"Times New Roman"; font-size:13px; font-style:italic; margin:10px 0px 10px 15px;}
+.info.lnk {text-align:center; width:500px}
+
+.Artists .tbl03 {margin-bottom:5px}
+
+.Artist .photo {border-left:1px solid #BE9175; border-right:1px solid #BE9175; border-bottom:1px solid #BE9175; background:white; padding:0; margin-bottom:5px;}
+.Artist .photo td {padding:0;}
+.Artist .photo thead {padding:2px 0 0 0; font:13px Verdana; color:#BE9175; background:url(/Images/Bkgs/Header.gif); font-weight:bold; text-align:center; height:22px; margin:0}
+.Artist select {font-size:11px; background-color:#FDF6D1; color:#BE9175; font-family:Verdana; font-size:11px; width:300px; margin-top:-5px}
+
+.Artist .tbl03 {padding:0;}
+.Artist .tbl03 tr td{height:54px;}
+.Artist .tbl03 tr.st01 td {background-color:#FBFBF0}
+.Artist .tbl03 thead td {height:26px;}
+.Artist .tbl03 tfoot td {height:26px;}
+.Artist .tbl03 td.cov{text-align:center; width:60px; padding-left:5px; border:none}
+.Artist .tbl03 th.name {text-align:left; padding-left:18px;}
+.Artist .tbl03 td.name {background:none; padding-left:18px;}
+.Artist .tbl03 td.name.cd {background:url(/Images/CD.gif) 0 50% no-repeat}
+
+.Album .image {border-left:1px solid #BE9175; border-right:1px solid #BE9175; border-bottom:1px solid #BE9175; background:white; padding:0; margin:auto auto 5px auto; width:302px; font:normal 12px Verdana;}
+.Album .image h1 {padding:0; font:bold 13px Verdana; color:#BE9175; background:url(/Images/Bkgs/Header.gif); text-align:center; vertical-align:middle; height:25px; margin:0; position:relative;}
+.Album .image a, .Album.image a:visited, .Album.image a:active {color:#BE9175;}
+.Album .image a:hover {color:#FCBD03;}
+.Album .image h1 .cd {background:url(/Images/CD.gif) 2px 3px no-repeat; height:100%;}
+.Album .image h1 a.Buy {background:url(/Images/ShoppingCart.gif) 0 0 no-repeat; text-decoration:none; width:25px; height:18px; position:absolute; right:1px; top:2px;}
+.Album select {font-size:11px; background-color:#FDF6D1; color:#BE9175; font-family:Verdana; width:300px; padding:0; margin:0;}
+
+.Album .tbl03 {padding:0; width:auto;}
+.Album .tbl03 thead td {height:26px; text-align:center;}
+.Album .tbl03 thead td.lst {text-align:center; padding:4px 0 0 0}
+.Album .tbl03 tfoot td {height:26px; text-align:center;}
+.Album .tbl03 td{width:auto;height:20px;text-align:left; padding-left:15px;}
+.Album .tbl03 td.trk {text-align:right; border-left:none; width:15px}
+.Album .tbl03 td.eml {padding-left:0px;}
+.Album .tbl03 td.eml a.eml {background:url(/Images/SEmail.gif) 0 50% no-repeat; width:10px; text-decoration:none; margin-left:2px; margin-right:3px; display:inline-block; display:-moz-inline-box;}
+.Album .tbl03 td.snd {padding:0 5px; text-align:right}
+.Album .tbl03 td.cmt {padding:0 2px 0 5px; text-align:center;}
+
+.Album .tblInfo {border:none; padding:0; margin:5px 0; width:100%; font:normal 11px Verdana;}
+.Album .tblInfo td{padding:0;}
+.Album .tblInfo td.st01{text-align:left; width:50%}
+.Album .tblInfo td.st02{text-align:right;}
+
+.ArtistSongs .tbl03 tbody td {text-align:left;}
+.ArtistSongs .tbl03 tbody td.st01 {border:none; width:15px;}
+.ArtistSongs .tbl03 tbody td.chk, .ArtistSongs .tbl03 tbody td.chkm {background-position:50% 50%; background-repeat:no-repeat;}
+
+.SongText .tbl03 thead td {padding:0 5px;}
+.SongText .tbl03 th {text-align:left;}
+.SongText .tbl03 tr.middle th {border-top:1px dashed #FACDB1;}
+.SongText .tbl03 th.tb {text-align:right;}
+.SongText .tbl03 th.var {border-top:1px dashed #FACDB1; font-weight:normal; font-style:italic;}
+.SongText .tbl03 td.txt {padding:5px; background:none; text-align:left; font-size:12px; border:none;}
+
+.SongText .tbl03 th a.chgen {text-decoration:none; background:url(/Images/Tab.gif) 0 0 no-repeat; width:18px; height:14px; padding:0; margin:0 3px 0 0; display:-moz-inline-box; display:inline-block;}
+.SongText .tbl03 th a.prn {text-decoration:none; background:url(/Images/Print.gif) 0 0 no-repeat; width:20px; height:14px; padding:0; margin:0; display:-moz-inline-box; display:inline-block;}
+.SongText select, .SongText optgroup {color:black; background-color:#F8F6DB; font:normal 9px Verdana; margin-top:1px;}
+
+.SongText pre {padding:0; margin:0;}
+.SongText .Chords, .SongText .tabs {color: #331DFC;}
+.SongText .ChordsComment {color: #331DFC; font-style:italic;}
+.SongText .Riff {color: #0901AE; font-weight:bold;}
+.SongText .Chorus {font-weight:bold;}
+.SongText .SComment, .SongText .copy {color:gray; font-style:italic;}
+
+.Orders .tbl01 tbody td {padding:0 3px;}
+.Orders .tbl01 tbody td.alert {font-weight:bold; color:red; padding:10px 5px; text-align:center; border-bottom:1px solid red;}
+.Orders .tbl01 p {margin-left:0; margin-right:0;}
+.Orders .tbl03 tbody td {padding:3px; text-align:left;}
+.Orders .tbl03 tbody td.date {border-left:none; white-space:nowrap;}
+.Orders .tbl03 tbody td.ico {text-align:center;}
+.Orders .tbl03 select {font:normal 10px Verdana,Arial,Helvetica,sans-serif; background-color:#FDF6D1; color:#BE9175; }
+
+.FileBrowser {width:100%}
+.FileBrowser .tbl01 {border:none}
+.FileBrowser .tbl01 tbody td {vertical-align:top;}
+.FileBrowser .tbl01 tbody td a {height:19px; padding:3px 0 0 20px; display:block;}
+.FileBrowser .tbl01 tbody td a.fld {background:url(/Images/Icons/Folder.gif) no-repeat 2px;}
+.FileBrowser .tbl01 tbody td a.mp3 { background:url(/Images/Icons/mp3.gif) no-repeat 2px;}
+.FileBrowser .tbl01 tbody td a.wma { background:url(/Images/Icons/wma.gif) no-repeat 2px;}
+.FileBrowser .tbl01 tbody td a.ogg { background:url(/Images/Icons/ogg.gif) no-repeat 2px;}
+.FileBrowser .tbl01 tbody td a.htm { background:url(/Images/Icons/htm.gif) no-repeat 2px;}
+.FileBrowser .tbl01 tbody td a.m3u { background:url(/Images/Icons/m3u.gif) no-repeat 2px;}
+.FileBrowser .tbl01 tbody td a.jpg { background:url(/Images/Icons/jpg.gif) no-repeat 2px;}
+.FileBrowser .tbl01 tbody td a.mpg { background:url(/Images/Icons/mpg.gif) no-repeat 2px;}
+.FileBrowser .tbl01 tbody td a.mpeg { background:url(/Images/Icons/mpg.gif) no-repeat 2px;}
+.FileBrowser .tbl01 tbody td a.avi { background:url(/Images/Icons/avi.gif) no-repeat 2px;}
+.FileBrowser .tbl01 tbody td a.up {background:url(/Images/Icons/UpFolder.gif) no-repeat 2px; display:inline;}
+.FileBrowser .tbl01 tbody td a.root {background:url(/Images/Icons/HD.gif) no-repeat 2px; display:inline;}
+.FileBrowser .tbl01 tbody td a.empty { background:none}
+
+.Wanted select {color:#BE9175; background-color:#F8F6DB; font:normal 9px Verdana;}
+.Wanted .tbl03 tbody td {text-align:left}
+.Wanted .tbl03 tbody td.nlb {border-left:none;}
+.Wanted .tbl03 tbody td.trk {text-align:right;}
+.Wanted .tbl03 tbody td.hl {background-color:#FBFBF0;}
+
+.GuestBook .tbl01 {margin-bottom:10px;}
+.GuestBook .tbl01 tbody tr td {padding:0 5px 5px 5px;}
+/*.GuestBook .tbl01 img {border:1px solid #FCBD03; vertical-align:middle; margin:0 10px 0 15px;}*/
+/*.GuestBook .pager a, .GuestBook .pager .cur {background:url(/Images/Bkgs/Page.gif) 0 0 no-repeat; width:26; height:20; font:normal 10px Arial,Helvetica,sans-serif; text-align:center; text-decoration:none; padding:4px 0 0 0; margin:0 0 0 2px; display:-moz-inline-box; -moz-box-pack:center; display:inline-block;}
+.GuestBook .pager .cur {color:#FCBD03;}*/
+
+.Guitar .tbl01 tbody tr td {padding:5px;}
+
+.Home .tbl01.stat tbody tr td {text-align:right; padding:2px;}
+.Home .tbl01.adm {margin-top:7px}
+.Home .tbl01.adm thead td {background:url(/Images/Bkgs/Header.gif);}
+.Home .tbl01.adm tbody tr td {text-align:left; padding:4px;}
+
+.News .tbl01 td {padding:3px;}
+.News .tbl03 tbody td {text-align:left;}
+.News .tbl03 tbody td.snd {text-align:center; border-left:none;}
+
+.Buy .tbl03 tbody th {text-align:center;}
+.Buy .tbl03 tbody td {border:none; text-align:left; padding:3px;}
+
+.top20 .tbl03 {margin-bottom:5px;}
+.top20 .tbl03 tbody td {text-align:left;}
+.top20 .tbl03 tbody td.num {text-align:right; border-left:none;}
+.top20 .tbl03 tbody td.vis {text-align:right;}
+
+.Search .tbl03 {margin-bottom:5px;}
+.Search .tbl03 thead td.noth {background:url(/Images/Bkgs/HeaderW.gif);}
+.Search .tbl03 tbody tr td {text-align:left;}
+
+.kopilka {font:bold 11px Verdana; text-align:center;}
+.kopilka a, .kopilka a:active, .kopilka a:visited, .kopilka a:hover {color:#FDF6C4;}
+.kopilka a, .kopilka a:active, .kopilka a:visited {text-decoration:none}
+.kopilka a:hover {text-decoration:underline;}
+
+.chat {width:300px; position:absolute; background-color:white; border:1px solid #BE9175; font:normal 10px Verdana,Arial,Helvetica; color:black; text-align:left; filter:progid:DXImageTransform.Microsoft.DropShadow(OffX=2,OffY=2,Color='#BABEC7',Positive='true')}
+.chat .tbl03 {width:100%; border:none}
+.chat .tbl03 thead td.chst01 {width:280px;padding-top:1px;cursor:move;}
+.chat .tbl03 thead img {margin:1px 1px 0 0}
+.chat .tbl03 img#chatrefresh{margin-left:6px; visibility:hidden;}
+.chat .tbl03 td {padding:0}
+.chat .tbl03 th {padding:0}
+.chat .tbl03 th input {width:100px; font-weight:normal; background-color:#FDF6D1; margin:0;}
+.chat .msgs {padding:1px; height:200px; overflow:auto;overflow:-moz-scrollbars-vertical;overflow-y:scroll;overflow-x:auto; text-align:left; scrollbar-base-color:#FDF6D1;}
+.chat .msgs p {padding:0 0 0 0.5em; margin:0; color:blue;}
+.chat input {font-size:10px; width:274px; padding:0; margin:0 0 0 1px; border:1px solid #BE9175;}
+.chat input.btn {width:20px; height:17px; margin-left:2px;}
+
+.ReqFld {font-weight:bold; color:#FCBD03;}
+
+.admin {width:100%}
+.admin .orders {height:300px;overflow-y:scroll;overflow-x:auto;scrollbar-base-color:#FDF6D1; border:1px solid #BE9175;}
+.admin .orders .tbl03 td.date {border:none;}
+.admin select {font:normal 11px Verdana; background-color:#FDF6D1; color:#BE9175;}
+.admin .msg {background-color:#C50001; color:white; font-weight:bold;}
+

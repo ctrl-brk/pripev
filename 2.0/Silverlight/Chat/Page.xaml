@@ -1,0 +1,61 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="Pripev.Silverlight.Chat.ChatPage"
+	Width="700" Height="500"
+	xmlns:Chat="clr-namespace:Pripev.Silverlight.Chat"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+
+	<UserControl.Resources>
+		<Chat:ChatSession x:Key="ChatSessionDS" d:IsDataSource="True"/>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FF86864C" Offset="1"/>
+				<GradientStop Color="#FFB4B481" Offset="0.763"/>
+				<GradientStop Color="#FFFCFCF8" Offset="0"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="29"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="43"/>
+		</Grid.ColumnDefinitions>
+		<Button Margin="5,5,5,5" Opacity="1" FontSize="10" Grid.Column="1" Grid.Row="2" Content="OK" x:Name="SendButton">
+			<Button.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="#FF55678D" Offset="1"/>
+					<GradientStop Color="#FF9CAAC6" Offset="0.21899999678134918"/>
+					<GradientStop Color="#FF8997B4" Offset="0.6029999852180481"/>
+					<GradientStop Color="#FFF7F8FB" Offset="0"/>
+				</LinearGradientBrush>
+			</Button.Background>
+		</Button>
+		<Border x:Name="TopBorder" Grid.ColumnSpan="2" CornerRadius="5,5,5,5" Margin="66,2,5,2" Background="#26000000">
+		    <TextBox Height="Auto" Width="Auto" FontSize="10" Text="{Binding Mode=TwoWay, Path=UserName, Source={StaticResource ChatSessionDS}}" TextWrapping="Wrap" BorderThickness="0,0,0,0" x:Name="UserName" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#00FFFFFF" IsReadOnly="True"/>
+		</Border>
+		<TextBlock HorizontalAlignment="Left" Margin="5,0,0,0" Width="57" Text="Ваш ник:" TextWrapping="Wrap" VerticalAlignment="Center"/>
+		<Border Margin="5,5,5,5" x:Name="CenterBorder" Grid.ColumnSpan="2" Grid.Row="1" Background="#8CFFFFFF" CornerRadius="5,5,5,5">
+			<ListBox Height="Auto" Width="Auto" FontSize="11" x:Name="lbChat" ItemsSource="{Binding Mode=OneWay, Path=MessageHistory, Source={StaticResource ChatSessionDS}}" >
+            <ListBox.ItemTemplate>
+               <DataTemplate>
+                  <StackPanel>
+                     <TextBlock Foreground='Blue' Text="{Binding Path=Header}"/>
+                     <TextBlock Text="{Binding Path=Message}"/>
+                  </StackPanel>
+               </DataTemplate>
+            </ListBox.ItemTemplate>
+			</ListBox>
+		</Border>
+		<Border Background="#7EFFFFFF" Margin="5,5,5,5" Grid.Row="2" CornerRadius="5,5,5,5" x:Name="BottomBorder">
+			<TextBox Height="Auto" Width="Auto" Background="#00FFFFFF" FontSize="10" Text="" TextWrapping="Wrap" BorderThickness="0,0,0,0" x:Name="InputTextBox" AcceptsReturn="False"/>
+		</Border>
+	</Grid>
+</UserControl>

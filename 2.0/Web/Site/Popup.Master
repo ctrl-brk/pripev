@@ -1,0 +1,24 @@
+<%@ Master Language="C#" AutoEventWireup="false" CodeBehind="Popup.master.cs" Inherits="Pripev.Web.UI.PopupMasterPage" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head id="Head1" runat="server">
+    <title><asp:ContentPlaceHolder ID='plhTitle' runat="server" /></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <meta name="Author" content="Aleksey G. Grachev" />
+    <link rel="stylesheet" href="/Include/Styles.css" />
+    <link rel="Shortcut Icon" href="/Images/RS32x32x256.ico" />
+    <asp:ContentPlaceHolder ID='plhStyle' runat="server" />
+    <script type="text/javascript">
+       function _OnLoad_() {
+          if (typeof (OnLoad) != "undefined") OnLoad();
+       }
+    </script>
+    <asp:ContentPlaceHolder ID='plhScript' runat='server' />
+</head>
+
+<body onload='_OnLoad_()' class='popupbody'>
+<form id="form1" runat="server">
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+</form>
+</body>
+</html>
